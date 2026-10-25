@@ -1,0 +1,27 @@
+/* BEGIN waybar-timer */
+@define-color timer-background rgba(17, 17, 27, 0.8);
+@define-color timer-cyan #33ccff;
+@define-color timer-mint #00ff99;
+
+#custom-timer {
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background-image: linear-gradient(@timer-background, @timer-background),
+                      linear-gradient(45deg, @timer-cyan, @timer-mint);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 2px 10px;
+    margin: 0 3px;
+    color: @timer-mint;
+}
+
+#custom-timer.done {
+    color: #ffcc66;
+    background-image: linear-gradient(@timer-background, @timer-background),
+                      linear-gradient(45deg, #ffcc66, @timer-mint);
+}
+
+#custom-timer:hover {
+    text-shadow: 0 0 6px @timer-mint;
+}
+/* END waybar-timer */

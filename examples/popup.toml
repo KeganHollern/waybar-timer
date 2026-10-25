@@ -1,0 +1,13 @@
+# Optional settings for ~/.config/waybar-timer/config.toml.
+# The default needs no config file.
+[popup]
+anchor = "pointer"
+
+# For a centered clock with the timer immediately to its left, use:
+# anchor = "centered-clock"
+# font = "monospace 14px"
+# clock_format = "%H:%M"
+#
+# Add each widget's total horizontal padding, border, and margin, in pixels.
+# clock_extra_width = 0
+# timer_extra_width = 0

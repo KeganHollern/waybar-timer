@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# User settings, runtime state, and local credentials never belong in Git.
+baseline.json
+config.jsonc
+style.css
+.env
+.env.*
+*.pem
+*.key
+state.json
+worker.log
+popup.log
+install-manifest.json

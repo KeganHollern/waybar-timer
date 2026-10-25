@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="334" height="190" viewBox="0 0 334 190">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="334" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#33ccff"/>
+      <stop offset="1" stop-color="#00ff99"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="332" height="188" rx="14" ry="14" fill="none" stroke="url(#accent)" stroke-width="2"/>
+</svg>

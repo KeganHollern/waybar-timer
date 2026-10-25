@@ -1,0 +1,18 @@
+{
+    "custom/timer-spacer": {
+        "format": " ",
+        "expand": true,
+        "tooltip": false
+    },
+    "custom/timer": {
+        "exec": "~/.local/bin/waybar-timer watch",
+        "return-type": "json",
+        "format": "{text}",
+        "hide-empty-text": true,
+        "restart-interval": 2,
+        "exec-on-event": false,
+        "on-click": "~/.local/bin/waybar-timer click",
+        "tooltip": true,
+        "escape": true
+    }
+}
